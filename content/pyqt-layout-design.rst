@@ -69,7 +69,7 @@ Well, as we talked about in the Hello World blog post, we can add in some functi
 
 But most of the time what we want to do is group, or layout, multiple widgets in an area. The way to do that in Qt is through Layout Management.
 
-All QWidget classes use layouts to manage the life cycle of their subwidgets. In addition to managing the life cycle, layouts also:
+All QWidget classes use layouts to manage the life cycle of their subwidgets. In addition to managing the life cycle, layouts also provide:
 
 * Positioning of child widgets.
 * Sensible default sizes for windows.
@@ -82,7 +82,7 @@ All QWidget classes use layouts to manage the life cycle of their subwidgets. In
   * Hiding or showing a child widget.
   * Removal of child widgets.
 
-Now to be clear, the Qt Documentation does an better job than I will of explaining the ins and outs of layout management, so I'd recommend you `check it out`_. But we'll go through the basics here of instantiating, using and setting layouts here.
+Now to be clear, the Qt Documentation does a better job than I will of explaining the ins and outs of layout management, so I'd recommend you `check it out`_. But we'll go through the basics of instantiating, using and setting layouts here.
 
 First we need a master widget that we can set the layout on.
 
